@@ -7,8 +7,9 @@ int main() {
 	int max = 0, temp = 0, index = 0;
 
 	scanf(" %s", input);
-    
-    int len = strlen(input);
+	
+	int len = strlen(input);
+	
 	for (int i = 0; i < len; i++)
 		alpha[(input[i] >= 97) ? input[i] - 97 : input[i] - 65]++;
 
