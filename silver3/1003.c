@@ -21,6 +21,8 @@ int main() {
 	for (int i = 0; i < input; i++) {
 		printf("%d %d\n", array[data[i]], array[data[i] + 1]);
 	}
-
+	
+	free(data);
+	
 	return 0;
 }
