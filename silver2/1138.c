@@ -19,7 +19,8 @@ int main() {
 				if (left == 0) {
 					line[j] = i + 1;
 					break;
-        } else left--;
+        }
+	else left--;
         
 			}
       
